@@ -1,0 +1,23 @@
+# ¡Bienvenido a Jekyll!
+#
+# Este archivo de configuración está hecho para configuraciones que
+# afectan todo el blog, valores que se van a establecer una vez y
+# raramente se cambian.
+# Por razones técnicas, este archivo **NO** es recargado automáticamente
+# cuando se utiliza `jekyll serve`. Si cambia este archivo, por favor
+# reinicie el servidor.
+
+# Configuraciones de sitio
+title: machete
+email: lenieto3@machete.com.co
+description: > # Esto signifiva ignorar nuevas líneas hasta "baseurl:"
+  Este es un blog colaborativo para el estudio de las Tecnologías de la
+  Información. Cualquier persona puede colaborar con la construcción de
+  este sitio aportando contenidos, ideas o código a través de Github.
+baseurl: "" # La ruta del sitio, ejemplo: /blog
+url: "http://www.machete.com.co" # La dirección base del sitio y el procotolo
+twitter_username: lenieto3
+github_username:  lenieto3
+
+# Build settings
+markdown: kramdown
