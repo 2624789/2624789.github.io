@@ -15,7 +15,7 @@ la Información y quiere que sea publicado en este blog, puede enviárnoslo
 por correo o crear un [Pull
 Request](http://www.desarrolloweb.com/articulos/pull-request-git.html) en el [repositorio de GitHub](https://github.com/lenieto3/lenieto3.github.io/pulls).  
   * **Con Ideas**: Si tiene alguna sugerencia que pueda ayudar a hacer
-    de este sitio una mejor herramienta el estudio de las Tecnologías de
+    de este sitio una mejor herramienta para el estudio de las Tecnologías de
 la Información escríbanos por correo o cree un *Issue* en el
 [repositorio de
 GitHub](https://github.com/lenieto3/lenieto3.github.io/issues).  
