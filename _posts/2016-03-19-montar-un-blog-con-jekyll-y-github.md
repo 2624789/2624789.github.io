@@ -152,3 +152,33 @@ Creamos el commit inicial con todos los archivos del blog:
 
     $ git add -A
     $ git commit -m "Comienzo"
+
+Asociamos con el repositorio remoto creado en GitHub:  
+
+    $ git remote add origin https://github.com/lenieto3/lenieto3.github.io.git
+
+Subimos el código de nuestro blog a GitHub:  
+
+    $ git push -u origin master
+
+## Resultado
+
+Ahora tenemos nuestro blog guardado en nuestro disco como un repositorio local en la
+carpeta `lenieto3.github.io`. Tenemos una copia de su código fuente subida a
+GitHub en `https://github.com/lenieto3/lenieto3.github.io`. Y la página
+web `http://lenieto3.github.io` para acceder al blog en internet.  
+
+## Forma de Uso
+
+Para agregar contenido o hacer modificaciones en nuestro blog realizamos
+el siguiente procedimiento:  
+
+  1. Realizamos las modificaciones o agregamos los contenidos en nuestra
+  copia local del blog, en la carpeta `lenieto3.github.io`.  
+  2. Utilizamos `jekyll serve` para revisar los cambios que estamos
+  haciendo en el blog de manera local.  
+  3. Una vez damos por terminados las modificaciones realizadas al blog de
+  manera local, hacemos un **commit** para conservar estos cambios.  
+  4. Subimos los cambios del repositorio local al repositorio en GitHub
+  para que se vean reflejados en la página en internet.
+
