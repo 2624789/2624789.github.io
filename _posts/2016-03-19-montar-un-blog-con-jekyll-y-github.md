@@ -13,12 +13,12 @@ Instalamos la gema [Jekyll](http://jekyllrb.com/):
 
 Creamos la carpeta del blog utilizando la gema instalada:  
 
-    $ jekyll new lenieto3.github.io
+    $ jekyll new machete-org.github.io
 
 Entramos a la carpeta del blog y ejecutamos el servidor de jekyll para
 verlo:  
 
-    $ cd lenieto3.github.io
+    $ cd machete-org.github.io
     $ jekyll serve
 
 Ahora podemos ver el blog que hemos creado utilizando un navegador en la
@@ -44,15 +44,15 @@ variables de configuración:
 
     # Configuraciones de sitio
     title: machete
-    email: programador@machete.com.co
+    email: colabore@machete.com.co
     description: > # Esto signifiva ignorar nuevas líneas hasta "baseurl:"
       Este es un blog colaborativo para el estudio de las Tecnologías de la
       Información. Cualquier persona puede colaborar con la construcción de
       este sitio aportando contenidos, ideas o código a través de Github.
     baseurl: "" # La ruta del sitio, ejemplo: /blog
     url: "http://www.machete.com.co" # La dirección base del sitio y el procotolo
-    twitter_username: lenieto3
-    github_username:  lenieto3
+    twitter_username: machetehacking
+    github_username: machete-org
 
     # Build settings
     markdown: kramdown
@@ -155,7 +155,7 @@ Creamos el commit inicial con todos los archivos del blog:
 
 Asociamos con el repositorio remoto creado en GitHub:  
 
-    $ git remote add origin https://github.com/lenieto3/lenieto3.github.io.git
+    $ git remote add origin https://github.com/machete-org/machete-org.github.io.git
 
 Subimos el código de nuestro blog a GitHub:  
 
@@ -164,9 +164,9 @@ Subimos el código de nuestro blog a GitHub:
 ## Resultado
 
 Ahora tenemos nuestro blog guardado en nuestro disco como un repositorio local en la
-carpeta `lenieto3.github.io`. Tenemos una copia de su código fuente subida a
-GitHub en `https://github.com/lenieto3/lenieto3.github.io`. Y la página
-web `http://lenieto3.github.io` para acceder al blog en internet.  
+carpeta `machete-org.github.io`. Tenemos una copia de su código fuente subida a
+GitHub en `https://github.com/machete-org/machete-org.github.io`. Y la página
+web `http://machete-org.github.io` para acceder al blog en internet.  
 
 ## Forma de Uso
 
@@ -174,7 +174,7 @@ Para agregar contenido o hacer modificaciones en nuestro blog realizamos
 el siguiente procedimiento:  
 
   1. Realizamos las modificaciones o agregamos los contenidos en nuestra
-  copia local del blog, en la carpeta `lenieto3.github.io`.  
+  copia local del blog, en la carpeta `machete-org.github.io`.  
   2. Utilizamos `jekyll serve` para revisar los cambios que estamos
   haciendo en el blog de manera local.  
   3. Una vez damos por terminados las modificaciones realizadas al blog de

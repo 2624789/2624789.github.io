@@ -14,7 +14,7 @@ subdominio de `github.io`
 En el [servidor DNS]() se debe agregar una entrada `CNAME` que apunte a
 la página de GitHub:
 
-    www.machete.com.co    CNAME    mipagina.github.io
+    www.machete.com.co    CNAME    machete-org.github.io
 
 En la mayoría de los casos, esta configuración se debe realizar a través
 de un [proveedor de nombres de dominio]().

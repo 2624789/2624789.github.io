@@ -9,15 +9,15 @@
 
 # Configuraciones de sitio
 title: machete
-email: lenieto3@machete.com.co
+email: colabore@machete.com.co
 description: > # Esto signifiva ignorar nuevas líneas hasta "baseurl:"
-  Este es un blog colaborativo para el estudio de las Tecnologías de la
-  Información. Cualquier persona puede colaborar con la construcción de
-  este sitio aportando contenidos, ideas o código a través de Github.
+  machete es un proyecto colaborativo para el estudio de las Tecnologías de la
+  Información. Cualquier persona puede colaborar aportando contenidos,
+  ideas o código a través de Github.
 baseurl: "" # La ruta del sitio, ejemplo: /blog
 url: "http://www.machete.com.co" # La dirección base del sitio y el procotolo
-twitter_username: lenieto3
-github_username:  lenieto3
+twitter_username: machetehacking
+github_username:  machete-org
 
 # Build settings
 markdown: kramdown
