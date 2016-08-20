@@ -5,6 +5,10 @@ date: 2016-03-19 10:26:04 -0500
 categories: web
 ---
 
+[GitHub](https://github.com/) ofrece la posibilidad de servir páginas
+web estáticas para los repositorios y además soporta el uso del
+generador de sitios estáticos Jekyll.
+
 ## Jekyll
 
 Instalamos la gema [Jekyll](http://jekyllrb.com/):  

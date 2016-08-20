@@ -9,9 +9,6 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}">
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -21,34 +18,19 @@
 
   <body>
     
-    <div class="intro-header">
-        <div class="wrapper-masthead">
-         <div class="container">
-           <header class="masthead clearfix">
-             <div class="site-info">
-               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-               <p class="site-description">{{ site.description }}</p>
-             </div>
-             <nav>
-               <a href="{{ site.baseurl }}/">Blog</a>
-               <a href="{{ site.baseurl }}/info">Info</a>
-               <a href="{{ site.baseurl }}/proyectos">Proyectos</a>
-             </nav>
-           </header>
-         </div>
-       </div>
-       
-        <div class="container">
-            <div class="space-small"></div>
-           
-            <div class="centered">
-              <img src="/images/avatar.jpg"/>
-            </div>
-             
-             <div class="space-medium"></div>
-            
+    
+    <div class="intro-header">    
+      <div class="container">
+        <div class="post-heading">
+            <h1>{{page.title}}</h1>
+            <span class="meta">{{ page.date | date: "%B %e, %Y" }}
+            <a href="{{ site.baseurl }}/"> { regresar }</a>
+            </span>
         </div>
+            
+      </div>
     </div>
+    
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -63,6 +45,7 @@
         </footer>
       </div>
     </div>
+
 
     {% include analytics.html %}
   </body>
