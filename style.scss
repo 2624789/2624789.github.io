@@ -182,7 +182,13 @@ img {
 }
 
 .site-info {
+  margin: 25px 0 0 0;
   float: left;
+  a {
+    &:hover, &:active {
+      color: $navbar-hover-color;
+    }
+  }
 
   @include mobile {
     float: none;
@@ -192,7 +198,6 @@ img {
 }
 
 .site-description {
-  margin: 27px 0 0 0;
   color: $white;
   font-size: 16px;
 
@@ -222,7 +227,7 @@ nav {
     letter-spacing: 1px;
     
     &:hover, &:active {
-      color: darken($navbar-hover-color,20);
+      color: $navbar-hover-color;
     }
 
     @include mobile {
