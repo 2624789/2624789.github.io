@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: machete
+name: m4chete
 
 # Short bio or description (displayed in the header)
-description: Grupo de Investigación en Software y Criptografía
+description: Grupo de Trabajo en Software y Criptografía
 
 
 #
@@ -16,21 +16,20 @@ description: Grupo de Investigación en Software y Criptografía
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: programador@machete.com.co
-  github: machete-org
-  twitter: machetehacking
+  github: m4chete
+  twitter: m4chete00
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: machete-1
+disqus: blogmachete
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
 # Your website URL (e.g. http://akshayagarwal007.github.io)
 # Used for Sitemap.xml and your RSS feed
-url: www.machete.com.co
+url: https://m4chete.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
