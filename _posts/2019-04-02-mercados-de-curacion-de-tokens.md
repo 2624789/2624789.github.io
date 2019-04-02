@@ -197,7 +197,7 @@ colateral en el depósito comunal. Esto hace que los poseedores de tokens
 también deban tener en cuenta el precio del Ether en el depósito. Podría
 haber escenario de volatilidad, en los que es más ventajoso transar
 Ether y por lo tanto hay un mayor incentivo en mantener el token líquido
-en lugar de usarlo para curación. El uso de tokens estables (Dhai) como
+en lugar de usarlo para curación. El uso de tokens estables (DAI) como
 colateral produce mercados de curación más estables.
 
 # Curvas
