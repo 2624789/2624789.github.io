@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: m4chete
+name: machete
 
 # Short bio or description (displayed in the header)
 description: Casa de Software
@@ -16,8 +16,7 @@ description: Casa de Software
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  github: m4chete
-  twitter: m4chete00
+  github: https://github.com/2624789
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -29,7 +28,7 @@ google_analytics:
 
 # Your website URL (e.g. http://akshayagarwal007.github.io)
 # Used for Sitemap.xml and your RSS feed
-url: https://m4chete.github.io
+url: https://2624789.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
